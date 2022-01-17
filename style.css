@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(sky.jpg);
+    background-size: cover;
+    background-color: lightsalmon;
+    margin 40px;
+}
+
+
+#container {
+    background-image: url(balloons.jpeg);
+    background-size: cover;
+    max-width: 800px;
+    background-color: rgba(236, 0, 79, 0.9);
+    margin: auto;
+    padding: 40px 0px;
+    margin-top: 80px;
+    color: white;
+    border-radius: 40px;
+    border-color: white;
+    box-shadow: 0 0 6px 4px brown;
+}
+
+#title {
+    font-size: 40px;
+    color: white;
+    font-family: cursive;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+#servey-form-conteiner {
+    width: 500px;
+    background-color: rgba(223, 27, 27, 0.644);
+    margin: auto;
+    padding: 10px 30px;
+    border: 5px solid rgb(209, 105, 31);
+    border-radius: 70px;
+}
+
+#name,
+#age,
+#email {
+    color: rgb(211, 67, 11);
+    background-color: rgb(255, 224, 229);
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+    border-style: hidden;
+}
+
+.input-box {
+    margin-top: 10px;
+}
+
+
+#form-button {
+    width: 160px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight:bold;
+    letter-spacing: 0.1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form-submit {
+    margin: auto;
+    width: 160px;
+    margin-top: 15px;
+}
+
+#form-button:hover {
+    background-color: white;
+    color: red;
+}
+
+#icons>i{
+    margin-left: 10px;
+}
+
+#icons>i:hover {
+    opacity: 0.7;
+}
+#icons-note{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+a{
+    color: darkmagenta;
+    font-size: large;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    color: rgb(12, 12, 165);
+}
